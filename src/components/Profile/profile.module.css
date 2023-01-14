@@ -1,0 +1,52 @@
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+} 
+
+.profile {
+    width: 250px;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.avatar {
+    width: 120px;
+}
+
+.name {
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    padding: 0;
+    background-color: beige;
+}
+
+.statItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    flex-basis: calc((100% - 10px) / 3);
+    padding: 15px;
+}
+
+.quantity {
+    font-weight: bold;
+    color: brown;
+}
