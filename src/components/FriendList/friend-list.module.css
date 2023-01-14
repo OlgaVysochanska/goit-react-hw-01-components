@@ -1,3 +1,7 @@
 .list {
-    color: aliceblue;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
 }

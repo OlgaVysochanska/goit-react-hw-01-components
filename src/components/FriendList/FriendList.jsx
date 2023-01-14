@@ -1,6 +1,6 @@
-import css from './friend-list.module.css';
 import PropTypes, { bool } from 'prop-types';
 import FriendListItem from './FriendListItem/FriendListItem';
+import css from './friend-list.module.css';
 
 const FriendList = ({ friends }) => {
     const friendListItems = friends.map(({id, avatar, name, isOnline}) => {
