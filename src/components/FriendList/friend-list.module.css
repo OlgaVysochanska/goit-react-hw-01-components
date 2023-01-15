@@ -1,10 +1,10 @@
 .list {
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
 }
