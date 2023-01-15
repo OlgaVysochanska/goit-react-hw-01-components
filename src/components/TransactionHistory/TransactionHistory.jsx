@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './transaction-history.module.css';
+import css from './Transaction-history.module.css';
 
 export const TransactionHistory = ({ items }) => {
   const tableBody = items.map(({ id, type, amount, currency }) => {
