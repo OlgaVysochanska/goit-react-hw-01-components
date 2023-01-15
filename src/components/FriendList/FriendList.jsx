@@ -16,7 +16,7 @@ FriendList.propTypes = {
     PropTypes.shape({
       avatar: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      isOnline: bool,
+      status: bool,
     })
   ),
 };
