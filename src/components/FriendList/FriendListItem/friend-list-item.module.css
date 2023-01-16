@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .item {
   padding-top: 10px;
   padding-bottom: 10px;
