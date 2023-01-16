@@ -1,5 +1,5 @@
 import PropTypes, { bool } from 'prop-types';
-import css from './Friend-list-item.module.css';
+import css from './FriendListItem.module.css';
 
 export const FriendListItem = ({ status, avatar, name }) => {
   const fullClassName = status ? `${css.status} ${css.active}` : css.status;
